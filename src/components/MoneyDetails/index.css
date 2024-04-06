@@ -1,0 +1,107 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+.income-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 25px;
+}
+.expenses-container {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+@media screen and (min-width: 768px) {
+  .money-details-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .balance-container {
+    max-width: 190px;
+  }
+  .income-container {
+    max-width: 190px;
+  }
+  .expenses-container {
+    max-width: 190px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .balance-container {
+    max-width: 250px;
+  }
+  .income-container {
+    max-width: 250px;
+  }
+  .expenses-container {
+    max-width: 250px;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .money-details-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .balance-container {
+    max-width: 350px;
+  }
+  .income-container {
+    max-width: 350px;
+  }
+  .expenses-container {
+    max-width: 350px;
+  }
+}
+.img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .balance {
+    font-size: 16px;
+  }
+  .balance-name {
+    font-size: 16px;
+  }
+  .img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .balance-name {
+    font-size: 22px;
+  }
+  .balance {
+    font-size: 22px;
+  }
+}
